@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.marquee-content {
+  @apply animate-marquee;
+}
