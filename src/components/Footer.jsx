@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="bg-[#000137] mt-[100px] py-[50px] ">
-      <div className="grid justify-around ml-20 gap-20 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mb-10">
+      <div className="grid justify-between m-10 gap-10 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mb-10">
         <div className="flex flex-col gap-2">
           <p className="text-[20px] font-bold text-white">Explore Features</p>
           <p className="text-[18px] text-white">For Teachers</p>

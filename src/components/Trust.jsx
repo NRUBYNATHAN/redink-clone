@@ -90,7 +90,7 @@ function Trust() {
                     // style={{ backgroundImage: `url(${item?.image})` }}
                   >
                     <div className="flex justify-around flex-col-reverse md:flex-row">
-                      <div className="mt-[30px] w-full mb-2 md:w-[500px]">
+                      <div className="mt-[30px] w-full mb-2  md:w-[500px]">
                         <p className="text-[20px] text-blue-950 font-semibold">
                           "{item?.content}"
                         </p>

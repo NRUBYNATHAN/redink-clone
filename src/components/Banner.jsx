@@ -15,7 +15,7 @@ function Banner() {
           parents informed about their child’s progress
         </p>
         <div>
-          <button className="mr-4 mt-2 bg-blue-500 p-2 rounded-[10px] w-[200px] text-[20px] font-medium">
+          <button className="mr-4 mt-2 bg-blue-500 p-2 rounded-[10px] w-[100px]  text-[15px] md:w-[200px] md:text-[20px] font-medium">
             Signup
           </button>
           <button className="text-blue-500">sign up &rarr;</button>

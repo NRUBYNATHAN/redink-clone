@@ -3,10 +3,10 @@ function Count() {
     <div className="my-24">
       <div className=" flex flex-wrap justify-around gap-10 items-center ">
         <div>
-          <h2 className="h1 font-bold text-blue-500 linear-text mb-2 lg:text-5xl lg:leading-[1.1] text-left">
+          <h2 className="h1 font-bold text-blue-500 linear-text mb-2 lg:text-5xl lg:leading-[1.1] text-center md:text-left">
             Empowering Education
           </h2>
-          <h3 className=" sm:text-[20px] md:text-[25px] font-bold">
+          <h3 className=" sm:text-[20px] md:text-[25px] font-bold text-center md:text-left">
             everyday with our
           </h3>
         </div>

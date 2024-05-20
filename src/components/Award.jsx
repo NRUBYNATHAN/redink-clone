@@ -13,15 +13,37 @@ function Award() {
         </p>
       </div>
       <div className="flex flex-wrap gap-5 justify-around items-center mx-10 mt-10">
-        <div className="w-[300px] py-10 bg-blue-100 p-4 rounded-[10px]">
-          <p className="bg-white text-center text-[50px] text-blue-700 rounded-[10px] w-[150px] h-[70px] font-bold ml-12 shadow-xl">
-            80%
-          </p>
+        <div className="w-[300px] py-10 bg-blue-100 p-4 flex flex-col justify-center  rounded-[10px]">
+          <div className="flex justify-center">
+            <p className="bg-white text-center text-[50px] text-blue-700 rounded-[10px] w-[150px] h-[70px] font-bold  shadow-xl">
+              80%
+            </p>
+          </div>
           <p className="text-[18px] font-semibold text-center my-10">
             Reduction in Teachers Daily School Tasks
           </p>
         </div>
-        <div className="w-[300px] py-10 bg-blue-100 p-4 rounded-[10px]">
+        <div className="w-[300px] py-10 bg-blue-100 p-4 flex flex-col justify-center  rounded-[10px]">
+          <div className="flex justify-center">
+            <p className="bg-white text-center text-[50px] text-blue-700 rounded-[10px] w-[150px] h-[70px] font-bold  shadow-xl">
+              50%
+            </p>
+          </div>
+          <p className="text-[18px] font-semibold text-center my-10">
+            Reduction in Teachers Daily School Tasks
+          </p>
+        </div>
+        <div className="w-[300px] py-10 bg-blue-100 p-4 flex flex-col justify-center  rounded-[10px]">
+          <div className="flex justify-center">
+            <p className="bg-white text-center text-[50px] text-blue-700 rounded-[10px] w-[150px] h-[70px] font-bold  shadow-xl">
+              30%
+            </p>
+          </div>
+          <p className="text-[18px] font-semibold text-center my-10">
+            Reduction in Teachers Daily School Tasks
+          </p>
+        </div>
+        {/* <div className="w-[300px] py-10 bg-blue-100 p-4 rounded-[10px]">
           <p className="bg-white text-center text-[50px] text-blue-700 rounded-[10px] w-[150px] h-[70px] font-bold ml-12 shadow-xl">
             13%
           </p>
@@ -36,7 +58,7 @@ function Award() {
           <p className="text-[18px] font-semibold text-center my-10">
             Stunning Positive Behavior in your Classroom
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
